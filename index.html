@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <script src="testing.js"></script>    
+    <title>My test page</title>
+  </head>
+  <body>
+    <h1>Wordle Number Edition</h1>
+    <p>type your guess in the textbox, if the number is in the right place then it will
+      appear green in the box below, if it is in the wrong place but still in the answer
+      somewhere then it will be yellow, if it is not in the answer at all it will be red.
+    </p>
+    <div class="turn-counter">
+      <span>Turns Left: </span>
+      <span id="turn-counter">10</span>
+    </div>
+    <div class="container">
+      <div class="target" id="target">????</div>
+
+      <div class="guess">
+        <input type="text" value="5667" id="guess-input" name="guess-input" 
+          autocomplete="off" maxlength="4" minlength="4" autofocus="true"><br>
+        <input type="button" id="guess-button" value="Guess">
+      </div> 
+      <div class="history" id="history">
+        <!-- <div class="history-box">
+          <span class="right" >1</span>
+          <span class="wrong">2</span>
+          <span class="half-way">3</span>
+          <span class="wrong">4</span>
+        </div> -->
+        <!-- <div class="history-box">5678</div> -->
+      </div>
+
+    </div>
+
+  </body>
+</html>

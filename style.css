@@ -1,0 +1,126 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: yellow; */
+}
+
+.container {
+    /* background-color: aqua; */
+    width: 415px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 3;
+    color: green;
+}
+
+.target {
+    background-color: yellowgreen;
+    font-size: 40px;
+    color: purple;
+    letter-spacing: 20px;
+    margin: 15px;
+    padding: 15px 0px 15px 15px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.turn-counter {
+    background-color: #00bcd4;
+    font-size: 40px;
+    color: black;
+    letter-spacing: 2px;
+    margin: 15px;
+    padding-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#game-over {
+    /* finish styling with mom */
+    padding-left: 10px;
+    margin: auto;
+    letter-spacing: 5px;
+    margin-bottom: -50px;
+}
+
+
+.container .guess {
+    background-color: #ffee01;
+    font-size: 40px;
+    color: blue;
+    letter-spacing: 20px;
+    margin: 15px;
+    padding-top: 15px;
+    /* padding-left: 10px; */
+    border-radius: 10px;
+    display: inline-block;
+    min-height: 120px;
+}
+
+#guess-input {
+    background-color: transparent;
+    border: 1px solid #000000;
+    font-size: 40px;
+    color: blue;
+    letter-spacing: 20px;
+    border-radius: 10px;
+    width: 170px;
+    margin: 0px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+#guess-button {
+    font-size: 25px;
+    /* background-color: transparent; */
+    border-radius: 30px;
+    padding: 5px 30px;
+    margin: 10px;
+}
+
+#guess-button:hover {
+    background-color: #9b4ee2;
+    color:white;
+    box-shadow: 0 3px black;
+}
+
+#guess-button:active {
+    transform: translateY(3px);
+    box-shadow: 0px 0px transparent;
+}
+
+
+.history-box {
+    background-color: rgba(0, 0, 255, 0.7);
+    font-size: 40px;
+    color: white;
+    letter-spacing: 20px;
+    margin: 10px 15px;
+    padding: 15px 0px 15px 15px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* .history-box span {
+    letter-spacing: 20px;
+} */
+
+.history-box .right {
+    color: #a1eb09;
+}
+
+.history-box .wrong{
+    color: red;
+}
+
+.history-box .half-way {
+    color: #e5c000;
+}
+
+p {
+    color: blue;
+}
